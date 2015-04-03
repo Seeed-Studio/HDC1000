@@ -40,7 +40,7 @@
  #include "WProgram.h"
 #endif
 
-#define HDC1000_ADDR				0x41
+#define HDC1000_ADDR				0x40
 
 #define HDC1000_TEMP				0x00
 #define HDC1000_HUMI				0x01
