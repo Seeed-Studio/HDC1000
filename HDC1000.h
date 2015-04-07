@@ -66,7 +66,7 @@ class HDC1000{
 	public: 
 		HDC1000(uint8_t address = HDC1000_ADDR, int drdyn_pin = -1);
 
-		uint8_t begin(uint8_t mode = HDC1000_BOTH_TEMP_HUMI, uint8_t resolution = HDC1000_TEMP_HUMI_14BIT, uint8_t heater = HDC1000_HEAT_ON);
+		uint8_t begin(uint8_t reset = HDC1000_RST, uint8_t mode = HDC1000_BOTH_TEMP_HUMI, uint8_t resolution = HDC1000_TEMP_HUMI_14BIT, uint8_t heater = HDC1000_HEAT_ON);
 
 		boolean battery();
 

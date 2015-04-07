@@ -40,10 +40,10 @@ HDC1000::HDC1000(uint8_t address, int drdyn_pin){
 	if(_drdyn_pin > -1) pinMode(_drdyn_pin, INPUT);
 }
 
-uint8_t HDC1000::begin(uint8_t mode, uint8_t resolution, uint8_t heater){
+uint8_t HDC1000::begin(uint8_t reset, uint8_t mode, uint8_t resolution, uint8_t heater){
 	Wire.begin();
 
-	uint8_t config = mode|resolution|heater;
+	uint8_t config = mode|resolution|heater|reset;
 
 	setConfig(config);
 
