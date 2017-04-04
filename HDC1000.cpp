@@ -31,7 +31,9 @@
 
 #include "HDC1000.h"
 #include "Wire.h"
-#include <util/delay.h>
+#if defined(__avr__)
+ #include <util/delay.h>
+#endif
 
 HDC1000::HDC1000(uint8_t address, int drdyn_pin){
 	_addr = address;
