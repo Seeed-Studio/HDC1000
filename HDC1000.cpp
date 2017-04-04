@@ -77,7 +77,7 @@ void HDC1000::setConfig(uint8_t config){
 
 uint16_t HDC1000::read16(){
 	uint8_t bytes = 2;
-	uint16_t dest;
+	uint16_t dest = 0;
 
 	Wire.requestFrom(_addr, bytes);
 	if(Wire.available()>=bytes){
