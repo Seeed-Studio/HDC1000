@@ -31,7 +31,9 @@
 
 #include "HDC1000.h"
 #include "Wire.h"
-#include <util/delay.h>
+#if defined(__avr__)
+ #include <util/delay.h>
+#endif
 
 HDC1000::HDC1000(uint8_t address, int drdyn_pin){
 	_addr = address;
@@ -75,7 +77,7 @@ void HDC1000::setConfig(uint8_t config){
 
 uint16_t HDC1000::read16(){
 	uint8_t bytes = 2;
-	uint16_t dest;
+	uint16_t dest = 0;
 
 	Wire.requestFrom(_addr, bytes);
 	if(Wire.available()>=bytes){
