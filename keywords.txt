@@ -1,0 +1,26 @@
+  
+#######################################
+# Syntax Coloring Map For 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+HDC1000	KEYWORD2
+begin	KEYWORD2
+battery	KEYWORD2
+getRawTemp	KEYWORD2
+getRawHumi	KEYWORD2
+getTemp	KEYWORD2
+getHumi	KEYWORD2
+readConfig	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
