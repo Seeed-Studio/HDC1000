@@ -1,6 +1,18 @@
 HDC1000 Arduino Library
 =======================
 
+<img src=https://statics3.seeedstudio.com/seeed/img/2016-09/MAVhqWeEjBMyo5O1o2MfVA4S.jpg width=400><img src=https://statics3.seeedstudio.com/product/101020087%201_01.jpg width=400>
+
+Grove - Temperature&Humidity Sensor (HDC1000) utilizes a HDC1000 sensor.HDC1000 was designed by Texas Instruments. It is a digital humidity sensor with integrated temperature sensor that provides excellent measurement accuracy at very low power.The device measures humidity based on a novel capacitive sensor.The humidity and temperature sensors are factory calibrated.The innovative WLCSP (Wafer Level Chip Scale Package) simplifies board design with the use of an ultra-compact package. The sensing element of the HDC1000 is placed on the bottom part of the device, which makes the HDC1000 more robust against dirt, dust, and other environmental contaminants. The HDC1000 is functional within the full –40°C to +125°C temperature range,and 0-100% RH range.
+
+***Features***
+- Grove connector compatible
+- IIC Interface
+- Low Power
+- Wide operating voltage range
+- I2C Serial Bus Address Configuration
+
+Please visit [Seeed_wiki](http://wiki.seeedstudio.com/Grove-TemperatureAndHumidity_Sensor-HDC1000/) for more information.
 ### Setup your sensor:
 First, declare it:
 
@@ -63,3 +75,7 @@ Seeed Studio is an open hardware facilitation company based in Shenzhen, China.
 Benefiting from local manufacture power and convenient global logistic system, 
 we integrate resources to serve new era of innovation. Seeed also works with 
 global distributors and partners to push open hardware movement.
+
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/HDC1000)](https://github.com/igrigorik/ga-beacon)
