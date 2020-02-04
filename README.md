@@ -1,4 +1,4 @@
-HDC1000 Arduino Library
+HDC1000 Arduino Library  [![Build Status](https://travis-ci.com/Seeed-Studio/HDC1000.svg?branch=master)](https://travis-ci.com/Seeed-Studio/HDC1000)
 =======================
 
 <img src=https://statics3.seeedstudio.com/seeed/img/2016-09/MAVhqWeEjBMyo5O1o2MfVA4S.jpg width=400><img src=https://statics3.seeedstudio.com/product/101020087%201_01.jpg width=400>
